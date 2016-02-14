@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "34E569F71C605B5100208331"
-               BuildableName = "ESP8266 Memory Usage Monitor.app"
-               BlueprintName = "ESP8266 Memory Usage Monitor"
-               ReferencedContainer = "container:ESP8266 Memory Usage Monitor.xcodeproj">
+               BuildableName = "ESP8266 Memory Usage Analyzer.app"
+               BlueprintName = "ESP8266 Memory Usage Analyzer"
+               ReferencedContainer = "container:ESP8266 Memory Usage Analyzer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "34E569F71C605B5100208331"
-            BuildableName = "ESP8266 Memory Usage Monitor.app"
-            BlueprintName = "ESP8266 Memory Usage Monitor"
-            ReferencedContainer = "container:ESP8266 Memory Usage Monitor.xcodeproj">
+            BuildableName = "ESP8266 Memory Usage Analyzer.app"
+            BlueprintName = "ESP8266 Memory Usage Analyzer"
+            ReferencedContainer = "container:ESP8266 Memory Usage Analyzer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "34E569F71C605B5100208331"
-            BuildableName = "ESP8266 Memory Usage Monitor.app"
-            BlueprintName = "ESP8266 Memory Usage Monitor"
-            ReferencedContainer = "container:ESP8266 Memory Usage Monitor.xcodeproj">
+            BuildableName = "ESP8266 Memory Usage Analyzer.app"
+            BlueprintName = "ESP8266 Memory Usage Analyzer"
+            ReferencedContainer = "container:ESP8266 Memory Usage Analyzer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "34E569F71C605B5100208331"
-            BuildableName = "ESP8266 Memory Usage Monitor.app"
-            BlueprintName = "ESP8266 Memory Usage Monitor"
-            ReferencedContainer = "container:ESP8266 Memory Usage Monitor.xcodeproj">
+            BuildableName = "ESP8266 Memory Usage Analyzer.app"
+            BlueprintName = "ESP8266 Memory Usage Analyzer"
+            ReferencedContainer = "container:ESP8266 Memory Usage Analyzer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

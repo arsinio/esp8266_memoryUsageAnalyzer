@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3471D21B1C70198100D6112D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3471D2171C70198100D6112D /* AppDelegate.m */; };
+		3471D21C1C70198100D6112D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3471D2181C70198100D6112D /* Info.plist */; };
+		3471D21D1C70198100D6112D /* OVRMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3471D21A1C70198100D6112D /* OVRMainViewController.m */; };
+		3471D2241C70199B00D6112D /* OVRMemorySection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3471D21F1C70199B00D6112D /* OVRMemorySection.m */; };
+		3471D2251C70199B00D6112D /* OVRNmParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3471D2211C70199B00D6112D /* OVRNmParser.m */; };
+		3471D2261C70199B00D6112D /* OVRSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = 3471D2231C70199B00D6112D /* OVRSymbol.m */; };
+		3471D2281C7019A800D6112D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3471D2271C7019A800D6112D /* main.m */; };
+		3471D22A1C7019B100D6112D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3471D2291C7019B100D6112D /* Assets.xcassets */; };
+		3471D22D1C701A3900D6112D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3471D22B1C701A3900D6112D /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3471D2161C70198100D6112D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "ESP8266 Memory Usage Analyzer/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
+		3471D2171C70198100D6112D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "ESP8266 Memory Usage Analyzer/AppDelegate.m"; sourceTree = SOURCE_ROOT; };
+		3471D2181C70198100D6112D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "ESP8266 Memory Usage Analyzer/Info.plist"; sourceTree = SOURCE_ROOT; };
+		3471D2191C70198100D6112D /* OVRMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OVRMainViewController.h; path = "ESP8266 Memory Usage Analyzer/OVRMainViewController.h"; sourceTree = SOURCE_ROOT; };
+		3471D21A1C70198100D6112D /* OVRMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OVRMainViewController.m; path = "ESP8266 Memory Usage Analyzer/OVRMainViewController.m"; sourceTree = SOURCE_ROOT; };
+		3471D21E1C70199B00D6112D /* OVRMemorySection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OVRMemorySection.h; path = "ESP8266 Memory Usage Analyzer/OVRMemorySection.h"; sourceTree = SOURCE_ROOT; };
+		3471D21F1C70199B00D6112D /* OVRMemorySection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OVRMemorySection.m; path = "ESP8266 Memory Usage Analyzer/OVRMemorySection.m"; sourceTree = SOURCE_ROOT; };
+		3471D2201C70199B00D6112D /* OVRNmParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OVRNmParser.h; path = "ESP8266 Memory Usage Analyzer/OVRNmParser.h"; sourceTree = SOURCE_ROOT; };
+		3471D2211C70199B00D6112D /* OVRNmParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OVRNmParser.m; path = "ESP8266 Memory Usage Analyzer/OVRNmParser.m"; sourceTree = SOURCE_ROOT; };
+		3471D2221C70199B00D6112D /* OVRSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OVRSymbol.h; path = "ESP8266 Memory Usage Analyzer/OVRSymbol.h"; sourceTree = SOURCE_ROOT; };
+		3471D2231C70199B00D6112D /* OVRSymbol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OVRSymbol.m; path = "ESP8266 Memory Usage Analyzer/OVRSymbol.m"; sourceTree = SOURCE_ROOT; };
+		3471D2271C7019A800D6112D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "ESP8266 Memory Usage Analyzer/main.m"; sourceTree = SOURCE_ROOT; };
+		3471D2291C7019B100D6112D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "ESP8266 Memory Usage Analyzer/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		3471D22C1C701A3900D6112D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "ESP8266 Memory Usage Analyzer/Base.lproj/Main.storyboard"; sourceTree = SOURCE_ROOT; };
+		34E569F81C605B5100208331 /* ESP8266 Memory Usage Analyzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ESP8266 Memory Usage Analyzer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34E569F51C605B5100208331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34E569EF1C605B5100208331 = {
+			isa = PBXGroup;
+			children = (
+				34E569FA1C605B5100208331 /* ESP8266 Memory Usage Analyzer */,
+				34E569F91C605B5100208331 /* Products */,
+				3FE0C3BBC6E2510A0E800DF2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		34E569F91C605B5100208331 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34E569F81C605B5100208331 /* ESP8266 Memory Usage Analyzer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34E569FA1C605B5100208331 /* ESP8266 Memory Usage Analyzer */ = {
+			isa = PBXGroup;
+			children = (
+				34E816EC1C60F25800E99CDA /* Model */,
+				3471D2161C70198100D6112D /* AppDelegate.h */,
+				3471D2171C70198100D6112D /* AppDelegate.m */,
+				3471D2181C70198100D6112D /* Info.plist */,
+				3471D2191C70198100D6112D /* OVRMainViewController.h */,
+				3471D21A1C70198100D6112D /* OVRMainViewController.m */,
+				3471D2291C7019B100D6112D /* Assets.xcassets */,
+				3471D22B1C701A3900D6112D /* Main.storyboard */,
+				34E569FE1C605B5100208331 /* Supporting Files */,
+			);
+			name = "ESP8266 Memory Usage Analyzer";
+			path = "ESP8266 Memory Usage Monitor";
+			sourceTree = "<group>";
+		};
+		34E569FE1C605B5100208331 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3471D2271C7019A800D6112D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34E816EC1C60F25800E99CDA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3471D21E1C70199B00D6112D /* OVRMemorySection.h */,
+				3471D21F1C70199B00D6112D /* OVRMemorySection.m */,
+				3471D2201C70199B00D6112D /* OVRNmParser.h */,
+				3471D2211C70199B00D6112D /* OVRNmParser.m */,
+				3471D2221C70199B00D6112D /* OVRSymbol.h */,
+				3471D2231C70199B00D6112D /* OVRSymbol.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3FE0C3BBC6E2510A0E800DF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34E569F71C605B5100208331 /* ESP8266 Memory Usage Analyzer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34E56A0C1C605B5100208331 /* Build configuration list for PBXNativeTarget "ESP8266 Memory Usage Analyzer" */;
+			buildPhases = (
+				34E569F41C605B5100208331 /* Sources */,
+				34E569F51C605B5100208331 /* Frameworks */,
+				34E569F61C605B5100208331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ESP8266 Memory Usage Analyzer";
+			productName = "ESP8266 Memory Usage Monitor";
+			productReference = 34E569F81C605B5100208331 /* ESP8266 Memory Usage Analyzer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34E569F01C605B5100208331 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = OvrEngineered;
+				TargetAttributes = {
+					34E569F71C605B5100208331 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 34E569F31C605B5100208331 /* Build configuration list for PBXProject "ESP8266 Memory Usage Analyzer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34E569EF1C605B5100208331;
+			productRefGroup = 34E569F91C605B5100208331 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34E569F71C605B5100208331 /* ESP8266 Memory Usage Analyzer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34E569F61C605B5100208331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3471D22D1C701A3900D6112D /* Main.storyboard in Resources */,
+				3471D22A1C7019B100D6112D /* Assets.xcassets in Resources */,
+				3471D21C1C70198100D6112D /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34E569F41C605B5100208331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3471D2241C70199B00D6112D /* OVRMemorySection.m in Sources */,
+				3471D21D1C70198100D6112D /* OVRMainViewController.m in Sources */,
+				3471D2261C70199B00D6112D /* OVRSymbol.m in Sources */,
+				3471D21B1C70198100D6112D /* AppDelegate.m in Sources */,
+				3471D2281C7019A800D6112D /* main.m in Sources */,
+				3471D2251C70199B00D6112D /* OVRNmParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3471D22B1C701A3900D6112D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3471D22C1C701A3900D6112D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34E56A0A1C605B5100208331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		34E56A0B1C605B5100208331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		34E56A0D1C605B5100208331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ESP8266 Memory Usage Analyzer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "OVR.ESP8266-Memory-Usage-Analyzer";
+				PRODUCT_NAME = "ESP8266 Memory Usage Analyzer";
+			};
+			name = Debug;
+		};
+		34E56A0E1C605B5100208331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ESP8266 Memory Usage Analyzer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "OVR.ESP8266-Memory-Usage-Analyzer";
+				PRODUCT_NAME = "ESP8266 Memory Usage Analyzer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34E569F31C605B5100208331 /* Build configuration list for PBXProject "ESP8266 Memory Usage Analyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34E56A0A1C605B5100208331 /* Debug */,
+				34E56A0B1C605B5100208331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34E56A0C1C605B5100208331 /* Build configuration list for PBXNativeTarget "ESP8266 Memory Usage Analyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34E56A0D1C605B5100208331 /* Debug */,
+				34E56A0E1C605B5100208331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34E569F01C605B5100208331 /* Project object */;
+}
